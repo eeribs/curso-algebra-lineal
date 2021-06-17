@@ -10,7 +10,7 @@
 
 Conoce toda el álgebra lineal de la mano de Juan Gabriel Gomila y María Santos. Asienta las bases para convertirte en el Data Scientist del futuro con todo el contenido del curso. En particular verás los mismos contenidos que explicamos en primero de carrera a matemáticos, ingenieros o informáticos como por ejemplo:
 
-* Logística e instalación de R y RStudio, Anaconda Navigator para Python y Octave GNU para ingeniería.
+* **Logística e instalación de R y RStudio**, Anaconda Navigator para Python y Octave GNU para ingeniería.
 * Cómo usar R, Python y Octave como si fuese una calculadora científica para complementar tu estudio día a día
 * Introducción a la programación funcional, creando funciones con R, Python y Octave para resolver tus problemas del álgebra lineal y que te servirá para seguir tomando a posteriori cursos de estadística, análisis de datos, machine learning e inteligencia artificial
 * Fundamentos esenciales de matemáticas incluyendo el estudio de cuerpos, un repaso de trigonometría, el método de inducción o los números complejos entre otros.
