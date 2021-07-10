@@ -1,0 +1,27 @@
+---
+title: "Prueba2"
+author: "Edgar G. Costilla"
+date: "6/26/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magic)
+#knitr::knit_engines$set(engine.path=list(Octave="C:/Program Files/GNU Octave/Octave-6.2./octave.vbs"))
+#knitr::opts_chunk$set(engine.path = list(octave = "/octave.vbs"))
+```
+
+# Prueba de cuadrados magicos
+Vamos a hacer un cuadrado magico de tamano 6
+```{r}
+magic(6)
+```
+Lo siguiente son unos ejemplos en Python:
+```{python}
+import numpy as np
+x=np.abs(-5)
+print(x)
+```
+
+
