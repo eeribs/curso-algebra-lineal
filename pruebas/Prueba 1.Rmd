@@ -7,9 +7,8 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(engine.path = list(octave = "C:/Program Files/GNU Octave/Octave-6.2.0/octave.vbs"))
+knitr::opts_chunk$set(engine.path = list(octave = "/Program Files/GNU Octave/Octave-6.2.0/mingw64/bin/octave-cli-6.2.0.exe"))
 library(magic)
-
 ```
 
 # Prueba de cuadrados magicos
