@@ -1,0 +1,22 @@
+---
+title: "R-n-Python"
+author: "Edgar G. Costilla"
+date: "7/20/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
+use_python("C:/Users/edgar/anaconda3/envs/curso-algebra-lineal/python.exe")
+```
+
+## R Markdown
+
+```{r}
+os <- import("os")
+os$listdir(".")
+```
