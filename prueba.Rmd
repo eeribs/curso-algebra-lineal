@@ -12,11 +12,38 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 library(reticulate)
 use_python("C:/Users/edgar/anaconda3/envs/curso-algebra-lineal/python.exe")
+os <- import("os")
+np <- import("numpy", convert = FALSE)
 ```
 
 ## R Markdown
 
+
+Llamar a libreria de python
 ```{r}
-os <- import("os")
 os$listdir(".")
+```
+
+
+Llamar a funcion o clase
+```{r}
+source_python("suma.py")
+add(3,4)
+```
+
+Conversion de valores python a r para trabajar con sintaxis r
+```{r}
+x <- np$array(c(1:4))
+sum <- x$cumsum()
+print(sum)
+py_to_r(sum)
+```
+
+
+Ayuda
+
+
+```{r}
+help("py_to_r")
+py_help(os$chdir)
 ```
